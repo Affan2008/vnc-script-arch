@@ -1,0 +1,91 @@
+#!/bin/bash
+
+print_usage() {
+    echo
+    echo "Usage $0"
+    echo
+    echo "nothing..."
+    echo
+}
+
+argument="$1"
+case $argument in
+    awesome)
+        "list/awesome"
+        ;;
+    blackbox)
+        "list/blackbox"
+        ;;
+    bspwm)
+        "list/bspwm"
+        ;;
+    enlightenment)
+        "list/enlightenment"
+        ;;
+    fluxbox)
+        "list/fluxbox"
+        ;;
+    herbstluftwm)
+        "list/herbstluftwm"
+        ;;
+    i3)
+        "list/i3"
+        ;;
+    icewm)
+        "list/icewm"
+        ;;
+    jwm)
+        "list/jwm"
+        ;;
+    kwin)
+        "list/kwin"
+        ;;
+    lwm)
+        "list/lwm"
+        ;;
+    marco)
+        "list/marco"
+        ;;
+    metacity)
+        "list/metacity"
+        ;;
+    mutter)
+        "list/mutter"
+        ;;
+    mwm)
+        "list/mwm"
+        ;;
+    no_wm)
+        "list/no_wm"
+        ;;
+    notion)
+        "list/notion"
+        ;;
+    openbox)
+        "list/openbox"
+        ;;
+    pekwm)
+        "list/pekwm"
+        ;;
+    qtile)
+        "list/qtile"
+        ;;
+    ratpoison)
+        "list/ratpoison"
+        ;;
+    spectrwm)
+        "list/spectrwm"
+        ;;
+    twm)
+        "list/twm"
+        ;;
+    ukwm)
+        "list/ukwm"
+        ;;
+    xfwm4)
+        "list/xfwm4"
+        ;;
+    stop)
+        "list/stop"
+        ;;
+esac
