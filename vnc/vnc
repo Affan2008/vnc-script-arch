@@ -1,0 +1,99 @@
+#!/bin/bash
+
+export VNC_GUI=/root/vnc
+
+print_usage() {
+    echo
+    echo "Usage $0"
+    echo
+    echo "nothing..."
+    echo
+}
+
+argument="$1"
+case $argument in
+    awesome)
+        "$VNC_GUI/list/awesome"
+        ;;
+    blackbox)
+        "$VNC_GUI/list/blackbox"
+        ;;
+    bspwm)
+        "$VNC_GUI/list/bspwm"
+        ;;
+    enlightenment)
+        "$VNC_GUI/list/enlightenment"
+        ;;
+    fluxbox)
+        "$VNC_GUI/list/fluxbox"
+        ;;
+    herbstluftwm)
+        "$VNC_GUI/list/herbstluftwm"
+        ;;
+    i3)
+        "$VNC_GUI/list/i3"
+        ;;
+    icewm)
+        "$VNC_GUI/list/icewm"
+        ;;
+    jwm)
+        "$VNC_GUI/list/jwm"
+        ;;
+    kwin)
+        "$VNC_GUI/list/kwin"
+        ;;
+    lwm)
+        "$VNC_GUI/list/lwm"
+        ;;
+    marco)
+        "$VNC_GUI/list/marco"
+        ;;
+    metacity)
+        "$VNC_GUI/list/metacity"
+        ;;
+    mutter)
+        "$VNC_GUI/list/mutter"
+        ;;
+    mwm)
+        "$VNC_GUI/list/mwm"
+        ;;
+    no_wm)
+        "$VNC_GUI/list/no_wm"
+        ;;
+    notion)
+        "$VNC_GUI/list/notion"
+        ;;
+    openbox)
+        "$VNC_GUI/list/openbox"
+        ;;
+    pekwm)
+        "$VNC_GUI/list/pekwm"
+        ;;
+    qtile)
+        "$VNC_GUI/list/qtile"
+        ;;
+    ratpoison)
+        "$VNC_GUI/list/ratpoison"
+        ;;
+    spectrwm)
+        "$VNC_GUI/list/spectrwm"
+        ;;
+    twm)
+        "$VNC_GUI/list/twm"
+        ;;
+    ukwm)
+        "$VNC_GUI/list/ukwm"
+        ;;
+    xfwm4)
+        "$VNC_GUI/list/xfwm4"
+        ;;
+    stop)
+        "$VNC_GUI/list/stop"
+        ;;
+    xfce)
+        "$VNC_GUI/list/xfce"
+        ;;
+    mate)
+        "$VNC_GUI/list/mate"
+        ;;
+esac
