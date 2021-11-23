@@ -1,1 +1,0 @@
-vncserver -xstartup /root/vnc/gui/no_wm :1
