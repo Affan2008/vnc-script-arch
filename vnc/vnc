@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export VNC_GUI=/root/vnc
-
 print_usage() {
     echo
     echo "Usage $0"
@@ -13,87 +11,87 @@ print_usage() {
 argument="$1"
 case $argument in
     awesome)
-        "$VNC_GUI/list/awesome"
+        "$VNC_START/awesome"
         ;;
     blackbox)
-        "$VNC_GUI/list/blackbox"
+        "$VNC_START/blackbox"
         ;;
     bspwm)
-        "$VNC_GUI/list/bspwm"
+        "$VNC_START/bspwm"
         ;;
     enlightenment)
-        "$VNC_GUI/list/enlightenment"
+        "$VNC_START/enlightenment"
         ;;
     fluxbox)
-        "$VNC_GUI/list/fluxbox"
+        "$VNC_START/fluxbox"
         ;;
     herbstluftwm)
-        "$VNC_GUI/list/herbstluftwm"
+        "$VNC_START/herbstluftwm"
         ;;
     i3)
-        "$VNC_GUI/list/i3"
+        "$VNC_START/i3"
         ;;
     icewm)
-        "$VNC_GUI/list/icewm"
+        "$VNC_START/icewm"
         ;;
     jwm)
-        "$VNC_GUI/list/jwm"
+        "$VNC_START/jwm"
         ;;
     kwin)
-        "$VNC_GUI/list/kwin"
+        "$VNC_START/kwin"
         ;;
     lwm)
-        "$VNC_GUI/list/lwm"
+        "$VNC_START/lwm"
         ;;
     marco)
-        "$VNC_GUI/list/marco"
+        "$VNC_START/marco"
         ;;
     metacity)
-        "$VNC_GUI/list/metacity"
+        "$VNC_START/metacity"
         ;;
     mutter)
-        "$VNC_GUI/list/mutter"
+        "$VNC_START/mutter"
         ;;
     mwm)
-        "$VNC_GUI/list/mwm"
+        "$VNC_START/mwm"
         ;;
     no_wm)
-        "$VNC_GUI/list/no_wm"
+        "$VNC_START/no_wm"
         ;;
     notion)
-        "$VNC_GUI/list/notion"
+        "$VNC_START/notion"
         ;;
     openbox)
-        "$VNC_GUI/list/openbox"
+        "$VNC_START/openbox"
         ;;
     pekwm)
-        "$VNC_GUI/list/pekwm"
+        "$VNC_START/pekwm"
         ;;
     qtile)
-        "$VNC_GUI/list/qtile"
+        "$VNC_START/qtile"
         ;;
     ratpoison)
-        "$VNC_GUI/list/ratpoison"
+        "$VNC_START/ratpoison"
         ;;
     spectrwm)
-        "$VNC_GUI/list/spectrwm"
+        "$VNC_START/spectrwm"
         ;;
     twm)
-        "$VNC_GUI/list/twm"
+        "$VNC_START/twm"
         ;;
     ukwm)
-        "$VNC_GUI/list/ukwm"
+        "$VNC_START/ukwm"
         ;;
     xfwm4)
-        "$VNC_GUI/list/xfwm4"
+        "$VNC_START/xfwm4"
         ;;
     stop)
-        "$VNC_GUI/list/stop"
+        "$VNC_START/stop"
         ;;
     xfce)
-        "$VNC_GUI/list/xfce"
+        "$VNC_START/xfce"
         ;;
     mate)
-        "$VNC_GUI/list/mate"
+        "$VNC_START/mate"
         ;;
 esac

@@ -1,0 +1,1 @@
+vncserver -xstartup $VNC_GUI/gui/kwin :1
