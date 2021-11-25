@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/spectrwm :1
+vncserver -xstartup /usr/local/bin/gui/spectrwm :1

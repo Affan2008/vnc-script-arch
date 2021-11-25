@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/jwm :1
+vncserver -xstartup /usr/local/bin/gui/jwm :1

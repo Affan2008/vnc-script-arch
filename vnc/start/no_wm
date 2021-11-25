@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/no_wm :1
+vncserver -xstartup /usr/local/bin/gui/no_wm :1

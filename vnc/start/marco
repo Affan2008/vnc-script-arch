@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/marco :1
+vncserver -xstartup /usr/local/bin/gui/marco :1

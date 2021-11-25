@@ -1,0 +1,9 @@
+#!/bin/bash
+[ -r ~/.Xresources ] && xrdb ~/.Xresources
+export PULSE_SERVER=127.0.0.1
+export DISPLAY=:1
+XAUTHORITY=~/.Xauthority
+export XAUTHORITY
+dbus-launch plasma_session &
+#dbus-launch cairo-dock & 
+xfce4-terminal &

@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/herbstluftwm :1
+vncserver -xstartup /usr/local/bin/gui/herbstluftwm :1

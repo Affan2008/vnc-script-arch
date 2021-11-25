@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/mate :1
+vncserver -xstartup /usr/local/bin/gui/mate :1

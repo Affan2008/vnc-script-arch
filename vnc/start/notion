@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/notion :1
+vncserver -xstartup /usr/local/bin/gui/notion :1

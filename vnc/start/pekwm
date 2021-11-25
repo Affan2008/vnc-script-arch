@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/pekwm :1
+vncserver -xstartup /usr/local/bin/gui/pekwm :1

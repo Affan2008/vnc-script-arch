@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/lwm :1
+vncserver -xstartup /usr/local/bin/gui/lwm :1

@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/icewm :1
+vncserver -xstartup /usr/local/bin/gui/icewm :1

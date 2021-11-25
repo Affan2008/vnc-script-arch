@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/i3 :1
+vncserver -xstartup /usr/local/bin/gui/i3 :1

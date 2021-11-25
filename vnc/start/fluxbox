@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/fluxbox :1
+vncserver -xstartup /usr/local/bin/gui/fluxbox :1

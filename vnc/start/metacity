@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/metacity :1
+vncserver -xstartup /usr/local/bin/gui/metacity :1

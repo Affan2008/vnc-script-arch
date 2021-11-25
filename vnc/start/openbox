@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/openbox :1
+vncserver -xstartup /usr/local/bin/gui/openbox :1

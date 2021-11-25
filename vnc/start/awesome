@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/awesome :1
+vncserver -xstartup /usr/local/bin/gui/awesome :1

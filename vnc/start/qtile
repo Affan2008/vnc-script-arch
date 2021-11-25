@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/qtile :1
+vncserver -xstartup /usr/local/bin/gui/qtile :1

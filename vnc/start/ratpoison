@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/ratpoison :1
+vncserver -xstartup /usr/local/bin/gui/ratpoison :1

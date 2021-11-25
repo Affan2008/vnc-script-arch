@@ -11,87 +11,87 @@ print_usage() {
 argument="$1"
 case $argument in
     awesome)
-        "$VNC_START/awesome"
+        "/usr/local/bin/start/awesome"
         ;;
     blackbox)
-        "$VNC_START/blackbox"
+        "/usr/local/bin/start/blackbox"
         ;;
     bspwm)
-        "$VNC_START/bspwm"
+        "/usr/local/bin/start/bspwm"
         ;;
     enlightenment)
-        "$VNC_START/enlightenment"
+        "/usr/local/bin/start/enlightenment"
         ;;
     fluxbox)
-        "$VNC_START/fluxbox"
+        "/usr/local/bin/start/fluxbox"
         ;;
     herbstluftwm)
-        "$VNC_START/herbstluftwm"
+        "/usr/local/bin/start/herbstluftwm"
         ;;
     i3)
-        "$VNC_START/i3"
+        "/usr/local/bin/start/i3"
         ;;
     icewm)
-        "$VNC_START/icewm"
+        "/usr/local/bin/start/icewm"
         ;;
     jwm)
-        "$VNC_START/jwm"
+        "/usr/local/bin/start/jwm"
         ;;
     kwin)
-        "$VNC_START/kwin"
+        "/usr/local/bin/start/kwin"
         ;;
     lwm)
-        "$VNC_START/lwm"
+        "/usr/local/bin/start/lwm"
         ;;
     marco)
-        "$VNC_START/marco"
+        "/usr/local/bin/start/marco"
         ;;
     metacity)
-        "$VNC_START/metacity"
+        "/usr/local/bin/start/metacity"
         ;;
     mutter)
-        "$VNC_START/mutter"
+        "/usr/local/bin/start/mutter"
         ;;
     mwm)
-        "$VNC_START/mwm"
+        "/usr/local/bin/start/mwm"
         ;;
     no_wm)
-        "$VNC_START/no_wm"
+        "/usr/local/bin/start/no_wm"
         ;;
     notion)
-        "$VNC_START/notion"
+        "/usr/local/bin/start/notion"
         ;;
     openbox)
-        "$VNC_START/openbox"
+        "/usr/local/bin/start/openbox"
         ;;
     pekwm)
-        "$VNC_START/pekwm"
+        "/usr/local/bin/start/pekwm"
         ;;
     qtile)
-        "$VNC_START/qtile"
+        "/usr/local/bin/start/qtile"
         ;;
     ratpoison)
-        "$VNC_START/ratpoison"
+        "/usr/local/bin/start/ratpoison"
         ;;
     spectrwm)
-        "$VNC_START/spectrwm"
+        "/usr/local/bin/start/spectrwm"
         ;;
     twm)
-        "$VNC_START/twm"
+        "/usr/local/bin/start/twm"
         ;;
     ukwm)
-        "$VNC_START/ukwm"
+        "/usr/local/bin/start/ukwm"
         ;;
     xfwm4)
-        "$VNC_START/xfwm4"
+        "/usr/local/bin/start/xfwm4"
         ;;
     stop)
-        "$VNC_START/stop"
+        "/usr/local/bin/start/stop"
         ;;
     xfce)
-        "$VNC_START/xfce"
+        "/usr/local/bin/start/xfce"
         ;;
     mate)
-        "$VNC_START/mate"
+        "/usr/local/bin/start/mate"
         ;;
 esac

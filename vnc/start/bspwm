@@ -1,1 +1,1 @@
-vncserver -xstartup $VNC_GUI/gui/bspwm :1
+vncserver -xstartup /usr/local/bin/gui/bspwm :1
