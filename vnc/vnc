@@ -94,4 +94,10 @@ case $argument in
     mate)
         "/usr/local/bin/start/mate"
         ;;
+    plasma)
+        "/usr/local/bin/start/plasma"
+        ;;
+    trinity)
+        "/usr/local/bin/start/trinity"
+        ;;
 esac
