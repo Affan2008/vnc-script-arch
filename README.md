@@ -5,9 +5,9 @@ Kinda obselete, requires TigerVNC 1.10.1 which no longer seem to work on x86_64 
 Currently tested to work on ArchLinuxARM (chroot).
 
 # Installation
-Firstly, install the ```git``` package
+Firstly, install ```git``` and ```xfce4-terminal```. 
 
-```pacman -S git```
+```pacman -S git xfce4-terminal```
 
 Clone this git repo
 
