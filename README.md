@@ -1,5 +1,5 @@
 # vnc-script-arch
-Somewhat simple and not so useful vnc script
+Somewhat simple and not so useful vnc script. 
 
 Kinda obselete, requires TigerVNC 1.10.1 which no longer seem to work on x86_64 systems due to missing libraries.
 Currently tested to work on ArchLinuxARM (chroot).
@@ -21,7 +21,7 @@ Copy all files to ```/usr/local/bin```
 
 ```cd && cd vnc-script-arch/vnc && cp -r * /usr/local/bin```
 
-Now you can launch vnc server using
+Now you can launch the vnc server using: 
 
 ```vnc <window_manager>```
 
