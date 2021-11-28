@@ -100,4 +100,10 @@ case $argument in
     trinity)
         "/usr/local/bin/start/trinity"
         ;;
+    lxde)
+        "/usr/local/bin/start/lxde"
+        ;;
+    lxqt)
+        "/usr/local/bin/start/lxqt"
+        ;;
 esac
