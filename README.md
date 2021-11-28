@@ -26,13 +26,6 @@ Now you can launch vnc server using
 ```vnc <window_manager>```
 
 This thing currently supports some popular window manager and desktop environments.
-For example:
--Fluxbox
--Openbox
--i3
--awesome
--LXDE
--Enlightenment
--XFCE
+For example: Fluxbox, MATE, Openbox, i3, awesome, LXDE, Enlightenment, XFCE
 
 Full list of options and supported window managers/desktop environments coming soon... 
